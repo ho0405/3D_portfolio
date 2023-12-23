@@ -6,6 +6,7 @@ import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
 
+
 const Navbar = () => {
   const [active, setActive] = useState('');
 
@@ -20,11 +21,19 @@ const Navbar = () => {
           className='flex items-center gap-2'
           onClick={() => {
             setActive("");
-            window.scrollTo(0,0);
+            window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain' />        
+          <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
+          <p className='text-white text-[18px] font-bold cursor-pointer'>Ryan <span className='sm:block hidden'>| 's Portfolio</span></p>
         </Link>
+        <ul className='list-none hidden sm:flex flex-row gap-10'>
+          {navLinks.map((link) => (
+            <li key={link.id}>
+              <a href={`#${link.id}`}>{link.title}</a>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   )
