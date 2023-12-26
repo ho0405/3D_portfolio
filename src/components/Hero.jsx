@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { ComputerCanvas } from './canvas'
+import { ComputersCanvas } from './canvas';
 
 
 
@@ -21,10 +21,10 @@ const Hero = () => {
 
           </p>
         </div>
-
-        <ComputerCanvas />
       </div>
 
+
+      <ComputersCanvas />
     </section>
   )
 }
