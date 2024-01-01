@@ -21,11 +21,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import oracledb from "./tech/oracledb.png";
+import csharp from "./tech/csharp.png";
+import flutter from "./tech/flutter.png";
+import java from "./tech/java.png";
+import python from "./tech/python.jpeg";
+import vercel from "./tech/vercel.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sait from "./company/sait.png";
+import wavemakers from "./company/wavemakers.jpeg";
+import linkedin from "./company/linkedin.png";
+import nomad from "./company/nomad.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -57,8 +68,19 @@ export {
   shopify,
   starbucks,
   tesla,
+  sait,
+  linkedin,
+  wavemakers,
+  nomad,
   carrent,
   jobit,
   tripguide,
-  ai
+  ai,
+  oracledb,
+  vercel,
+  java,
+  python,
+  csharp,
+  flutter,
+  
 };
