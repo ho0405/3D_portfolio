@@ -38,10 +38,9 @@ import wavemakers from "./company/wavemakers.jpeg";
 import linkedin from "./company/linkedin.png";
 import nomad from "./company/nomad.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
+import portfolio from "./portfolio.png"
+import greenspace from "./greenspace.png"
+import proplan from "./proplan.png"
 export {
   logo,
   backend,
@@ -72,9 +71,6 @@ export {
   linkedin,
   wavemakers,
   nomad,
-  carrent,
-  jobit,
-  tripguide,
   ai,
   oracledb,
   vercel,
@@ -82,5 +78,7 @@ export {
   python,
   csharp,
   flutter,
-  
+  proplan,
+  greenspace,
+  portfolio,
 };

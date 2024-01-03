@@ -13,21 +13,18 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     sait,
     nomad,
     wavemakers,
     linkedin,
     oracledb,
-    vercel,
     python,
     java,
-    csharp,
-    flutter
+    flutter,
+    proplan,
+    greenspace,
+    portfolio,
   } from "../assets";
   
   export const navLinks = [
@@ -109,26 +106,17 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "vercel",
-      icon: vercel,
-    },
+    
     {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
     {
       name: "python",
       icon: python,
     },
-    {
-      name: "csharp",
-      icon: csharp,
-    },
+    
     {
       name: "java",
       icon: java,
@@ -197,9 +185,9 @@ import {
     
   ];
   
-  const testimonials = [
+  const expertise = [
     {
-      testimonial:
+      expertise:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
@@ -207,7 +195,7 @@ import {
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
-      testimonial:
+      expertise:
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
       name: "Chris Brown",
       designation: "COO",
@@ -215,7 +203,7 @@ import {
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
-      testimonial:
+      expertise:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
@@ -226,68 +214,78 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pro Plan (Task manager)",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Pro Plan is a cutting-edge web application developed using React as part of the SAIT web development project. This powerful tool empowers teams to enhance collaboration, streamline task management, and visualize project progress effortlessly.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "vercel",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "firebase",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: proplan,
+      website: "https://cprg-306-final-project.vercel.app/",
+      source_code_link: "https://github.com/Sergei137/cprg-306-Final-Project",
     },
     {
-      name: "Job IT",
+      name: "3D Portfolio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Step into a new dimension with the 3D Personal Portfolio – a groundbreaking showcase of skills and achievements crafted with three.js, Vite, and Tailwind CSS. This portfolio isn't just a static display; it's a dynamic and immersive experience designed to captivate visitors and provide an unparalleled insight into your creative journey.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "three.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
+        {
+          name: "vite.js",
+          color: "orange-text-gradient",
+        }
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/ho0405/3D_portfolio",
     },
     {
-      name: "Trip Guide",
+      name: "Green Space Ease",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Embark on a transformative journey with 'Green Space Ease', a visionary mobile app conceptualized and presented during an 8-week experiential learning program under the esteemed Wavemakers initiative. As part of team 'YellowWave,' we delved into the planning phase, laying the groundwork for an app designed to enhance accessibility to greenspaces.",
       tags: [
         {
-          name: "nextjs",
+          name: "react-native",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "mongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: greenspace,
+      source_code_link: "https://github.com/ho0405/greenspace/",
     },
+    
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, expertise, projects };
