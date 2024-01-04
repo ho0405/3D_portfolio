@@ -1,3 +1,4 @@
+// Import necessary dependencies and styles
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
@@ -5,7 +6,8 @@ import { fadeIn, textVariant } from '../utils/motion';
 import { connect } from '../constants';
 import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 
-const ConnectCard = ({ index, connect, name, designation, company, image, socialLink }) => (
+// Define the ConnectCard component
+const ConnectCard = ({ index, connect, name, company, image, socialLink }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
@@ -38,6 +40,7 @@ const ConnectCard = ({ index, connect, name, designation, company, image, social
   </motion.div>
 );
 
+// Define the Connect component
 const Connect = () => {
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">
@@ -56,5 +59,5 @@ const Connect = () => {
   );
 };
 
+// Export the Connect component with SectionWrapper
 export default SectionWrapper(Connect, "connect");
-
