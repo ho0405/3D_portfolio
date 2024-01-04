@@ -7,17 +7,19 @@ import { connect } from '../constants';
 import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 // Define the ConnectCard component
-const ConnectCard = ({ index, connect, name, company, image, socialLink }) => (
+const ConnectCard = ({ index, connect, name, designation, company, image, socialLink }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
   >
     <a href={socialLink} target="_blank" rel="noopener noreferrer">
-      <p className="text white font-black text-[48px]">
-        {connect === 'Instagram' && <FaInstagram />}
-        {connect === 'GitHub' && <FaGithub />}
-        {connect === 'LinkedIn' && <FaLinkedin />}
-      </p>
+      <div className="clickable-image-container">
+        <img
+          src={image}
+          alt={`feedback-by-${name}`}
+          className="w-10 h-10 rounded-full object-cover cursor-pointer"
+        />
+      </div>
       <div className="mt-1">
         <p className="text-white tracking-wider text-[18px]">{connect}</p>
         <div className="mt-7 flex justify-between items-center gap-1">
@@ -29,16 +31,12 @@ const ConnectCard = ({ index, connect, name, company, image, socialLink }) => (
               on {company}
             </p>
           </div>
-          <img
-            src={image}
-            alt={`feedback-by-${name}`}
-            className="w-10 h-10 rounded-full object-cover cursor-pointer"
-          />
         </div>
       </div>
     </a>
   </motion.div>
 );
+
 
 // Define the Connect component
 const Connect = () => {
