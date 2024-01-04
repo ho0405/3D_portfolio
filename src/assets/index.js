@@ -25,7 +25,7 @@ import oracledb from "./tech/oracledb.png";
 import csharp from "./tech/csharp.png";
 import flutter from "./tech/flutter.png";
 import java from "./tech/java.png";
-import python from "./tech/python.jpeg";
+import python from "./tech/python.png";
 import vercel from "./tech/vercel.png";
 
 

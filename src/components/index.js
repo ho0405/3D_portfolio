@@ -5,7 +5,7 @@ import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
-import Expertise from './Expertise';
+import Connect from './Connect';
 import Contact from './Contact';
 
 export {
@@ -15,7 +15,7 @@ export {
   Tech,
   Experience,
   Works,
-  Expertise,
+  Connect,
   Contact,
   EarthCanvas, 
   BallCanvas, 

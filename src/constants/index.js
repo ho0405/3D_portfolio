@@ -37,6 +37,10 @@ import {
       title: "Learned",
     },
     {
+      id: "connect",
+      title: "Connect with me",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -75,10 +79,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -105,11 +105,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    
-    {
-      name: "figma",
-      icon: figma,
     },
     
     {
@@ -185,30 +180,30 @@ import {
     
   ];
   
-  const expertise = [
+  const connect = [
     {
-      expertise:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      connect:
+        "Passionate SAIT Software Development student with a focus on AI development. Let's connect and explore the tech landscape together!",
+      name: "ryan-back",
+      company: "LinkedIn",
+      image: "src/assets/company/linkedin.png",
+      socialLink:"https://www.linkedin.com/in/ryan-back/",
     },
     {
-      expertise:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      connect:
+        "Aspiring AI developer showcasing diverse projects from 3D environments to web apps. Excited to collaborate and learn in the coding world!",
+      name: "ho0405",
+      company: "Github",
+      image: "src/assets/github.png",
+      socialLink:"https://github.com/ho0405",
     },
     {
-      expertise:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      connect:
+        "Join me in the world of coding! I'm a SAIT Software Development student, sharing code and glimpses of daily life. Let's connect personally—follow for coding adventures and more! 🚀👩‍💻",
+      name: "ryanback45",
+      company: "Instagram",
+      image: "src/assets/company/instagram.webp",
+      socialLink:"https://www.instagram.com/ryanback45/",
     },
   ];
   
@@ -288,4 +283,4 @@ import {
     
   ];
   
-  export { services, technologies, experiences, expertise, projects };
+  export { services, technologies, experiences, connect, projects };
