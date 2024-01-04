@@ -34,7 +34,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import sait from "./company/sait.png";
-import wavemakers from "./company/wavemakers.jpeg";
+import wavemakers from "./company/wavemakers.png";
 import linkedin from "./company/linkedin.png";
 import nomad from "./company/nomad.png";
 
