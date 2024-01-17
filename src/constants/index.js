@@ -25,6 +25,7 @@ import {
     proplan,
     greenspace,
     portfolio,
+    sushirestaurant,
   } from "../assets";
   
   export const navLinks = [
@@ -259,6 +260,23 @@ import {
       image: portfolio,
       source_code_link: "https://github.com/ho0405/3D_portfolio",
     },
+    {
+      name: "Sushi Restaurant",
+      description:
+          "Indulge in a culinary adventure with 'Sushi Restaurant,' an innovative mobile app crafted using Flutter. Designed to function seamlessly on both Android and iOS, this app revolutionizes the sushi dining experience. Dive into intuitive menu pages, customize your order, and enjoy the convenience of an integrated 'add to cart' feature.",
+      tags: [
+          {
+              name: "flutter",
+              color: "blue-text-gradient",
+          },
+          {
+              name: "dart",
+              color: "green-text-gradient",
+          },
+      ],
+      image: sushirestaurant,
+      source_code_link: "https://github.com/ho0405/sushi_resturant/",
+  },
     {
       name: "Green Space Ease",
       description:
