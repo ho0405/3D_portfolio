@@ -40,3 +40,4 @@ If you encounter issues with the Connect page where icons are not displaying, ma
 Contributions are welcome! Feel free to open issues or pull requests to improve the project.
 
 ### You can check this Website on here: https://ryanback.vercel.app
+<img width="1200" alt="portfolio" src="https://github.com/ho0405/3D_portfolio/assets/23023444/d0b98e76-4cbd-43be-8725-c2be77460cf4">
