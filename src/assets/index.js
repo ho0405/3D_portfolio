@@ -42,6 +42,7 @@ import portfolio from "./portfolio.png";
 import greenspace from "./greenspace.png";
 import proplan from "./proplan.png";
 import sushirestaurant from "./sushirestaurant.png";
+import newssummarize from "./newssummarize.png"
 
 export {
   logo,
@@ -83,5 +84,6 @@ export {
   proplan,
   greenspace,
   portfolio,
-  sushirestaurant
+  sushirestaurant,
+  newssummarize
 };

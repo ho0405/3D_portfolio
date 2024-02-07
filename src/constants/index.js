@@ -26,6 +26,8 @@ import {
     greenspace,
     portfolio,
     sushirestaurant,
+    newssummarize,
+
   } from "../assets";
   
   export const navLinks = [
@@ -277,6 +279,32 @@ import {
       image: sushirestaurant,
       source_code_link: "https://github.com/ho0405/sushi_resturant/",
   },
+  {
+    name: "News Summarizer & Sentiment Analyzer",
+    description:
+        "Empower your news reading experience with 'News Summarizer & Sentiment Analyzer,' a comprehensive tool developed in Python and PyQt5. This application is designed to simplify staying informed by summarizing news articles, performing sentiment analysis with TextBlob, and offering translation to Korean using the Google Cloud Translation API. Initially developed with Tkinter, it was transitioned to PyQt5 to ensure smooth operation across all platforms, including macOS. Created to save time and enhance comprehension for users, including a personal touch for my mom to access global news in her native language.",
+    tags: [
+        {
+            name: "python",
+            color: "green-text-gradient",
+        },
+        {
+            name: "pyqt5",
+            color: "orange-text-gradient",
+        },
+        {
+            name: "textblob",
+            color: "pink-text-gradient",
+        },
+        {
+            name: "google cloud translation",
+            color: "blue-text-gradient",
+        },
+    ],
+    image: newssummarize,
+    source_code_link: "https://github.com/ho0405/Summarize-News-Articles",
+},
+
     {
       name: "Green Space Ease",
       description:
