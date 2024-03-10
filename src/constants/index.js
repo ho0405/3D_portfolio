@@ -44,6 +44,10 @@ import {
       title: "Connect with me",
     },
     {
+      id: "works",
+      title: "Works",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
