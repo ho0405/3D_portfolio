@@ -135,6 +135,9 @@
   transform: translateZ(0);
 }
 
+/* For mobile or tablet */
+
+
 @keyframes mulShdSpin {
 
   0%,
