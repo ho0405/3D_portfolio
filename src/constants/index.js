@@ -63,7 +63,7 @@ import {
       icon: backend,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile Developer",
       icon: mobile,
     },
     {
